@@ -15,7 +15,7 @@ import {
   Shield,
   FileText,
 } from "lucide-react";
-import { FaGithub } from "react-icons/fa";
+import { FaGithub, FaAppStoreIos } from "react-icons/fa";
 
 import AnimatedContent from "@/components/ui/animated-content";
 import { AuroraText } from "@/components/ui/aurora-text";
@@ -121,7 +121,7 @@ export default function UniNextPage() {
               rel="noopener noreferrer"
               className="flex items-center gap-3 bg-white text-black font-semibold px-6 py-3.5 rounded-2xl hover:bg-white/90 transition-all shadow-lg shadow-white/10 text-sm"
             >
-              <Apple size={20} />
+              <FaAppStoreIos size={20} />
               Download on the App Store
             </a>
             <span className="text-white/30 text-sm">Free · No ads</span>
@@ -261,7 +261,7 @@ export default function UniNextPage() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 bg-blue-600 hover:bg-blue-500 text-white font-semibold px-8 py-4 rounded-2xl transition-all shadow-lg shadow-blue-900/30 text-sm"
             >
-              <Apple size={20} />
+              <FaAppStoreIos size={20} />
               Download on the App Store
               <ChevronRight size={16} className="opacity-70" />
             </a>

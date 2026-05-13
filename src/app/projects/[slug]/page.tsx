@@ -6,7 +6,7 @@ import Link from "next/link";
 import { use } from "react";
 
 import { ArrowLeft, ArrowRight, ExternalLink, Notebook, Star } from "lucide-react";
-import { FaGithub, FaApple } from "react-icons/fa";
+import { FaGithub, FaAppStoreIos } from "react-icons/fa";
 
 import { getProjectBySlug, projects, getBlogBySlug } from "@/lib/projects";
 
@@ -161,7 +161,7 @@ function ProjectDetailContent({
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-sm text-gray-300 hover:text-white transition-colors"
               >
-                <FaApple size={16} />
+                <FaAppStoreIos size={16} />
                 Download on App Store
               </Link>
             )}
