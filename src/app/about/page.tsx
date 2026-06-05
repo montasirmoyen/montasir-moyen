@@ -142,7 +142,7 @@ export default function About() {
                 The constant challenges, tradeoffs I have to make, and problem solving required keep me engaged.
               </p>
               <p>
-                I'm currently studying Databases this semester, while exploring new technologies and frameworks in my free time.
+                I'm currently studying Databases% this semester, while exploring new technologies and frameworks in my free time.
                 I've used macOS, Windows, and Linux environments, growing comfortable across these platforms.
               </p>
               <p>
@@ -193,7 +193,7 @@ export default function About() {
 
       <section className="gap-10 flex flex-col md:flex-row justify-center items-center py-12 px-4">
         <CardFlip
-          title="Incoming SWE Intern @ Cambridge Associates"
+          title="SWE Intern @ Cambridge Associates"
           subtitle="Jun 2026 - Aug 2026"
           description="Boston, MA, USA - Hybrid - Software Engineering Intern"
           features={[
