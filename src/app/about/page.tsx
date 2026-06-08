@@ -142,7 +142,7 @@ export default function About() {
                 The constant challenges, tradeoffs I have to make, and problem solving required keep me engaged.
               </p>
               <p>
-                I'm currently studying Databases% this semester, while exploring new technologies and frameworks in my free time.
+                I'm currently studying Databases this semester, while exploring new technologies and frameworks in my free time.
                 I've used macOS, Windows, and Linux environments, growing comfortable across these platforms.
               </p>
               <p>
