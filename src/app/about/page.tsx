@@ -72,12 +72,11 @@ export default function About() {
       <TopBarBackground imageUrl="/sea-wave.jpg" transparency={50} />
 
       <div className="max-w-7xl mx-auto">
-        <div className="items-center">
-          {/* Headshot
-          
-                    <div className="mx-auto">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-6 items-center">
+          {/* Headshot */}
+          <div className="mx-auto">
             <TiltedCard
-              imageSrc="/montasirmoyen.png"
+              imageSrc="/mm-side.jpeg"
               altText="Author"
               containerHeight="250px"
               containerWidth="250px"
@@ -95,18 +94,14 @@ export default function About() {
               }
             />
           </div>
-          
-          */}
-
-
 
           {/* Text Content */}
           <div className="mx-auto">
-            <p className="text-sm text-white/50 uppercase md:px-8 sm:px-4 px-4 text-center">
+            <p className="text-sm text-white/50 uppercase md:px-8 sm:px-4 px-4">
               WHO AM I?
             </p>
 
-            <div className="mt-2 mb-10 flex flex-col md:px-8 sm:px-4 px-4 items-center">
+            <div className="mt-2 flex flex-col items-start md:px-8 sm:px-4 px-4">
               <TextAnimate
                 animation="blurInUp"
                 by="character"
@@ -136,17 +131,12 @@ export default function About() {
                 My journey into tech started in early middle school with my first computer, and I've been captivated ever since, continuing my knowledge into high school and university.
               </p>
               <p>
-                In my free time, I channel my passion into creating software such as apps, games, and macOS tools.
-                Each project fuels my curiosity about the technologies behind them.
-                I never get tired or bored of coding.
-                The constant challenges, tradeoffs I have to make, and problem solving required keep me engaged.
+                In my free time, I channel my passion into creating software.
+                Each project fuels my curiosity about the underlying technologies.
+                Because of the constant skills involved in developing software, I never find myself growing tired or bored of it.
               </p>
               <p>
-                I'm currently studying Databases this semester, while exploring new technologies and frameworks in my free time.
-                I've used macOS, Windows, and Linux environments, growing comfortable across these platforms.
-              </p>
-              <p>
-                Beyond coding, you'll find me playing fútbol or basketball, listening to music, or catching up on anime.
+                Beyond coding, you'll find me playing fútbol or basketball or listening to music.
                 I strive to learn & grow as a developer and am open to collaborations and new challenges.
               </p>
               <p>
