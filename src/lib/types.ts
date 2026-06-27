@@ -71,7 +71,7 @@ export interface Blog {
   appStoreUrl?: string;
   promotionalUrl?: string;
   blogPosts: {
-    date: string;
+    date?: string;
     title: string;
     borderColor: string;
     content: ({

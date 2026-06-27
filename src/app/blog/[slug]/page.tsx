@@ -213,7 +213,9 @@ function BlogDetailContent({
                     >
                       <div className="mb-2">
                         <h3 className="text-xl font-semibold text-white mb-2">{post.title}</h3>
-                        <p className="text-sm text-gray-400">{post.date}</p>
+                        {post.date && (
+                          <p className="text-sm text-gray-400">{post.date}</p>
+                        )}
                       </div>
                       <div className="space-y-0 leading-relaxed tracking-wide text-balance">
                         {post.content.map((item: any, itemIndex: number) => {
