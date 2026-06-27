@@ -1934,7 +1934,7 @@ const rawBlogs: RawBlog[] = [
     challenge: true,
     blogPosts: [
       {
-        date: "March 18, 2026 - Part 1",
+        date: "Part 1",
         title: "Continuity",
         borderColor: "#ff628e",
         content: [
@@ -1961,7 +1961,7 @@ const rawBlogs: RawBlog[] = [
         ],
       },
       {
-        date: "March 18, 2026 - Part 2",
+        date: "Part 2",
         title: "Architecture",
         borderColor: "#8eedbc",
         content: [
@@ -1986,7 +1986,7 @@ const rawBlogs: RawBlog[] = [
         ],
       },
       {
-        date: "March 18, 2026 - Part 3",
+        date: "Part 3",
         title: "Implementation",
         borderColor: "#7cf93d",
         content: [
@@ -2029,7 +2029,7 @@ const rawBlogs: RawBlog[] = [
         ],
       },
       {
-        date: "March 18, 2026 - Part 4",
+        date: "Part 4",
         title: "Testing",
         borderColor: "#9760ff",
         content: [
@@ -2065,7 +2065,7 @@ const rawBlogs: RawBlog[] = [
         ],
       },
       {
-        date: "March 18, 2026 - Part 5",
+        date: "Part 5",
         title: "Reflection",
         borderColor: "#115bcb",
         content: [
@@ -2117,7 +2117,7 @@ const rawBlogs: RawBlog[] = [
     challenge: true,
     blogPosts: [
       {
-        date: "March 13, 2026 - Part 1",
+        date: "Part 1",
         title: "Beyond",
         borderColor: "#00e1ff",
         content: [
@@ -2155,7 +2155,7 @@ const rawBlogs: RawBlog[] = [
         ],
       },
       {
-        date: "March 13, 2026 - Part 2",
+        date: "Part 2",
         title: "Architecture",
         borderColor: "#fabd5a",
         content: [
@@ -2185,7 +2185,7 @@ const rawBlogs: RawBlog[] = [
         ],
       },
       {
-        date: "March 13, 2026 - Part 3",
+        date: "Part 3",
         title: "Implementation",
         borderColor: "#28ff85",
         content: [
@@ -2217,7 +2217,7 @@ const rawBlogs: RawBlog[] = [
         ],
       },
       {
-        date: "March 13, 2026 - Part 4",
+        date: "Part 4",
         title: "Testing",
         borderColor: "#de679c",
         content: [
@@ -2246,7 +2246,7 @@ const rawBlogs: RawBlog[] = [
         ],
       },
       {
-        date: "March 13, 2026 - Part 5",
+        date: "Part 5",
         title: "Reflection",
         borderColor: "#ffffff",
         content: [
@@ -2288,7 +2288,7 @@ const rawBlogs: RawBlog[] = [
     challenge: true,
     blogPosts: [
       {
-        date: "February 26, 2026 - Part 1",
+        date: "Part 1",
         title: "Endeavor",
         borderColor: "#ff453b",
         content: [
@@ -2326,7 +2326,7 @@ const rawBlogs: RawBlog[] = [
         ],
       },
       {
-        date: "February 26, 2026 - Part 2",
+        date: "Part 2",
         title: "Architecture",
         borderColor: "#dabf7c",
         content: [
@@ -2357,7 +2357,7 @@ const rawBlogs: RawBlog[] = [
         ],
       },
       {
-        date: "February 26, 2026 - Part 3",
+        date: "Part 3",
         title: "Implementation",
         borderColor: "#39ffff",
         content: [
@@ -2388,7 +2388,7 @@ const rawBlogs: RawBlog[] = [
         ],
       },
       {
-        date: "February 26, 2026 - Part 4",
+        date: "Part 4",
         title: "Testing",
         borderColor: "#30b0c0",
         content: [
@@ -2419,7 +2419,7 @@ const rawBlogs: RawBlog[] = [
         ],
       },
       {
-        date: "February 26, 2026 - Part 5",
+        date: "Part 5",
         title: "Reflection",
         borderColor: "#a2845e",
         content: [
@@ -2466,7 +2466,6 @@ const rawBlogs: RawBlog[] = [
     tags: ["Internship", "Research"],
     blogPosts: [
       {
-        date: "April 18, 2026",
         title: "Sunny",
         borderColor: "#fff020",
         content: [
@@ -2486,7 +2485,6 @@ const rawBlogs: RawBlog[] = [
         ],
       },
       {
-        date: "April 18, 2026",
         title: "Intern",
         borderColor: "#0569ff",
         content: [
@@ -2506,7 +2504,6 @@ const rawBlogs: RawBlog[] = [
         ],
       },
       {
-        date: "April 18, 2026",
         title: "Research",
         borderColor: "#4ff760",
         content: [
@@ -2532,7 +2529,6 @@ const rawBlogs: RawBlog[] = [
         ],
       },
       {
-        date: "April 18, 2026",
         title: "Infra",
         borderColor: "#ff214a",
         content: [
@@ -2573,7 +2569,6 @@ const rawBlogs: RawBlog[] = [
         ],
       },
       {
-        date: "April 21, 2026",
         title: "Presidency",
         borderColor: "#4b23ff",
         content: [
