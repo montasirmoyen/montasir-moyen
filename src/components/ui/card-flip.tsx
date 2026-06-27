@@ -61,9 +61,21 @@ export default function CardFlip({
                         isFlipped ? "opacity-0" : "opacity-100"
                     )}
                 >
-                    <div className="relative h-full overflow-hidden bg-linear-to-br from-card/50 via-card/10 to-card/50 flex items-center justify-center">
+                    <div className="relative h-full overflow-hidden bg-black flex items-center justify-center">
+                        {image && (
+                            <div>
+                                <Image
+                                    src={image}
+                                    alt={title || "Card image"}
+                                    fill
+                                    unoptimized
+                                    className={`opacity-2 object-cover rounded-2xl z-0`}
+                                />
+                            </div>
+                        )}
+
                         {image ? (
-                            <div className="">
+                            <div>
                                 <Image
                                     src={image}
                                     alt={title || "Card image"}
@@ -133,7 +145,7 @@ export default function CardFlip({
                                 alt={title || "Card image"}
                                 fill
                                 unoptimized
-                                className={`opacity-8 object-cover rounded-2xl`}  // makes logo fill + transparent
+                                className={`opacity-8 object-cover rounded-2xl`}
                             />
                         </div>
                     )}
