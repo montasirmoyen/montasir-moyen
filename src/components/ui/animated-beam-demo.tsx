@@ -70,7 +70,7 @@ export function AnimatedBeamDemo() {
           </Circle>
           <Circle ref={div4Ref} className="bg-transparent size-16 overflow-hidden rounded-full relative border-2 border-white"> {/* me */}
             <Image
-              src="/montasirmoyen.png"
+              src="/mm-side.jpeg"
               alt="User Icon"
               fill
               className="object-cover"

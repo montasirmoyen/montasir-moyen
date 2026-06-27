@@ -76,7 +76,7 @@ export default function About() {
           {/* Headshot */}
           <div className="mx-auto">
             <TiltedCard
-              imageSrc="/mm-side.jpeg"
+              imageSrc="/mm-outside.png"
               altText="Author"
               containerHeight="250px"
               containerWidth="250px"
