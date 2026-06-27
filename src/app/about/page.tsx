@@ -218,6 +218,28 @@ export default function About() {
         />
       </section>
 
+      <section className="gap-10 flex flex-col md:flex-row justify-center items-center py-12 px-4">
+        <CardFlip
+          title="Vice President @ SPARC"
+          subtitle="Aug 2026 - Present"
+          description="Boston, MA, USA - Vice President"
+          features={[
+            "Project lead managing the development of software projects for the club",
+          ]}
+          image="/sparc-linkedin.png"
+        />
+
+        <CardFlip
+          title="Research Assistant @ Suffolk University"
+          subtitle="Jun 2026 - Aug 2026"
+          description="Boston, MA, USA - Hybrid - Research Assistant"
+          features={[
+            "Engineering an AI agent that tutors students taking Probability & Statistics"
+          ]}
+          image="/su.png"
+        />
+      </section>
+
       <p className="mt-2 text-center text-sm text-white/50 uppercase">
         The building blocks
       </p>
