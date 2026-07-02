@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { InboxIcon } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 interface SocialLinksProps {
@@ -10,6 +11,9 @@ interface SocialLinksProps {
 export function SocialLinks({ className, iconClassName }: SocialLinksProps) {
   return (
     <div className={cn("gap-5 flex", className)}>
+      <Link href="mailto:montasirmoyen@gmail.com">
+        <InboxIcon className={cn("transition size-6", iconClassName)} />
+      </Link>
       <Link href="https://www.linkedin.com/in/montasirmoyen/" target="_blank">
         <FaLinkedin className={cn("transition size-6", iconClassName)} />
       </Link>
