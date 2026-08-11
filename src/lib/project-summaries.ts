@@ -128,6 +128,7 @@ export const projectSummaries: Record<string, SharedProjectSummary> = {
     technologies: ["Python", "OpenCV", "MediaPipe"],
     status: "in-progress",
     githubUrl: "https://github.com/montasirmoyen/domain-expansion",
+    liveUrl: "https://domain-expansion-jjk.vercel.app/",
   },
   "ask-cli": {
     title: "Ask CLI",
