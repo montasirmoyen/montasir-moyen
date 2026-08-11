@@ -68,7 +68,7 @@ export default function SOTM() {
                         <Image src={spotifyImage} alt="Spotify" width={24} height={24} />
                         <div>
                             <p className="text-sm uppercase tracking-wide text-foreground/75">
-                                My Song of the Month
+                                RECENTLY PLAYED SONG
                             </p>
                             <p className="text-lg font-medium text-foreground">
                                 <span className="font-semibold">

@@ -20,6 +20,7 @@ function SOTMSection() {
   return (
     <section className="my-16 flex flex-col items-center gap-6 px-4">
       <SOTM />
+      {/*-- Button to toggle past songs 
       <LiquidButton
         className="scale-75 font-bold text-xl"
         onClick={() => setShowPast((v) => !v)}
@@ -62,6 +63,7 @@ function SOTMSection() {
           ))}
         </div>
       )}
+      */}
     </section>
   );
 }
